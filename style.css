@@ -1,0 +1,85 @@
+/* start rules  */
+body{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* End rules  */
+.container{
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.navbar-brand span{
+    font-size: 26px;
+    font-weight: 900;
+    color: #17b978;
+   /* height: 0; */
+}
+.navbar-brand {
+    font-size: 22px;
+    font-weight: ;
+
+}
+
+.ahmed{
+    height: 100vh;
+}
+#scrollspyHeading1 {
+    height: 100vh;
+}
+#scrollspyHeading2 {
+    height: 100vh;
+}
+#scrollspyHeading3 {
+    height: 100vh;
+}
+#scrollspyHeading4 {
+    height: 100vh;
+}
+#scrollspyHeading5 {
+    height: 100vh;
+}
+#scrollspyHeading6 {
+    height: 100vh;
+}
+#scrollspyHeading7 {
+    height: 100vh;
+}
+/* Remove default active background and text color */
+.nav-link.active {
+    background-color: transparent !important;
+    color: #17b978 !important; /* Change to your desired text color */
+    position: relative !important;
+    transition: color 0.3s ease, background-color 0.3s ease !important;
+}
+
+/* Add a green line under the active link */
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 50;
+    transform: translateX(-50%);
+    bottom: 0px; /* Adjust to position the line correctly */
+    width: 100%;
+    height: 2px; /* Thickness of the line */
+    background-color: #17b978; /* Change to your desired color */
+}
+
+/* Optional: Change color on hover */
+.nav-link:hover {
+    color: #17b978 !important; /* Change to your desired hover text color */
+    
+}
+
+/* Optional: Add transition for smooth effect */
+.nav-link {
+    transition: color 0.3s ease, background-color 0.3s ease !important;
+    /* padding-bottom: 3px; */
+    color: #051441;
+}
+.nav-item {
+    padding: 15 5px;
+}
